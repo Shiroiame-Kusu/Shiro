@@ -180,13 +180,14 @@ export default async function RootLayout(props: PropsWithChildren) {
           </head>
           <body
             className={`${sansFont.variable} ${serifFont.variable} m-0 h-full p-0 font-sans`}
+            style={{backgroundImage:"url(https://api.kusu.micrsky.com/api)",backgroundRepeat:"no-repeat",backgroundAttachment:"fixed",backgroundPosition:"center"}}
           >
             <WebAppProviders>
               <AggregationProvider
                 aggregationData={data}
                 appConfig={themeConfig.config}
               />
-              <div data-theme>
+              <div style={{backdropFilter:"blur(5px)",opacity: 0.95}} data-theme>
                 <Root>{children}</Root>
               </div>
 
