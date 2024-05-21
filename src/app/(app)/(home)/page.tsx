@@ -187,7 +187,7 @@ const Hero = () => {
           )}
         >
           <small className="text-center">
-            当第一颗卫星飞向大气层外，我们便以为自己终有一日会征服宇宙。
+            Forgive or Forget.
           </small>
           <span className="mt-8 animate-bounce">
             <i className="icon-[mingcute--right-line] rotate-90 text-2xl" />
@@ -223,12 +223,6 @@ const windsock = [
     icon: IcTwotoneSignpost,
   },
   {
-    title: '手记',
-    type: 'Note',
-    path: '/notes',
-    icon: FaSolidFeatherAlt,
-  },
-  {
     title: '度过的时光呀',
     icon: FaSolidHistory,
     path: '/timeline',
@@ -237,27 +231,7 @@ const windsock = [
     title: '朋友们',
     icon: FaSolidUserFriends,
     path: '/friends',
-  },
-  {
-    title: '写下一点思考',
-    icon: MdiLightbulbOn20,
-    path: '/thinking',
-  },
-  {
-    title: '看看我做些啥',
-    icon: MdiFlask,
-    path: '/projects',
-  },
-  {
-    title: '记录下一言',
-    path: '/says',
-    icon: FaSolidComments,
-  },
-  {
-    title: '跃迁',
-    icon: RMixPlanet,
-    path: 'https://travel.moe/go.html',
-  },
+  }
 ]
 
 const Windsock = () => {

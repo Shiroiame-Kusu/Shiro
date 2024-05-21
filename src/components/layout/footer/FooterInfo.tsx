@@ -180,9 +180,9 @@ const FooterBottom = async () => {
   return (
     <div className="mt-12 space-y-3 text-center md:mt-6 md:text-left">
       <p>
-        <span>© {date.replace('{{now}}', currentYear)} </span>
+        <span>CopyRight © {date.replace('{{now}}', currentYear)} </span>
         <a href="/">
-          <OwnerName />
+          by Shiroame Kusunoki All Rights Reserved.
         </a>
         <span>.</span>
         <span>

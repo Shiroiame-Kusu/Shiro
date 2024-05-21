@@ -1,9 +1,9 @@
 {
 	"organizeImports": {
-		"enabled": true
+		"enabled": false
 	},
 	"linter": {
-		"enabled": true,
+		"enabled": false,
 		"rules": {
 			"recommended": false,
 			"a11y": {
