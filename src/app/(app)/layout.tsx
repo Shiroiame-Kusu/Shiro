@@ -187,7 +187,7 @@ export default async function RootLayout(props: PropsWithChildren) {
                 aggregationData={data}
                 appConfig={themeConfig.config}
               />
-              <div style={{backdropFilter:"blur(5px)"}} data-theme>
+              <div style={{backgroundColor:"var(--fallback-b1, oklch(var(--b1) / 0.8))",backdropFilter:"blur(5px)"}} data-theme>
                 <Root>{children}</Root>
               </div>
 
